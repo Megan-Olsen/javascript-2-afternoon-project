@@ -52,8 +52,11 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 */
 
 //Code Here
-
-
+let looper = (family) => {
+  for (let i = 0; i < family.length; i++) {
+    console.log(alert(family[i]));
+  }
+}
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
