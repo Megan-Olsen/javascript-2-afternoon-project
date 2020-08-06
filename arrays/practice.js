@@ -69,7 +69,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-
+let reversedLooper = function(letters){
+  for (let i = letters.length - 1; i >=0; i--){
+    console.log(alert(letters[i]))
+  }
+}
 
 
 ////////// PROBLEM 5 //////////
