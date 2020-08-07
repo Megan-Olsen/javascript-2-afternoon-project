@@ -145,6 +145,12 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
+function each(names, cb){
+  for(let i = 0; i < names.length; i++){
+    cb(names[i], i) 
+  };
+  return
+}
 
 // Do not edit the code below.
 each(names, function(item, indice){
