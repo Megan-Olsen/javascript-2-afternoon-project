@@ -121,8 +121,18 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
-
-
+function divider(numbersArray){
+  var evenNums= [];
+  var oddNums= [];
+  for(var i = 0; i < numbersArray.length; i ++){
+    if (numbersArray[i] % 2 === 0){
+      evenNums.push(numbersArray[i]);
+    }else {
+      oddNums.push(numbersArray[i])
+    }
+  }
+  return [evenNums, oddNums];
+}
 
 ////////// PROBLEM 7 //////////
 
