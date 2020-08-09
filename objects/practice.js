@@ -149,10 +149,12 @@ call(methodCollection.alertHello, methodCollection.logHello)
 
 //Code Here
 
-function* makePerson(name, birthday, ssn) {  
-    name = name,
-    birthday = birthday,
-    ssn =ssn
+function makePerson(name, birthday, ssn){
+  return {
+    name:name,
+    birthday: birthday,
+    ssn:ssn
+  }
 }
 
 
